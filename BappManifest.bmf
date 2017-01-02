@@ -1,0 +1,10 @@
+Uuid: 215390e63f314c20958a23930eb1555a
+ExtensionType: 2
+Name: Browser Repeater
+ScreenVersion: 0.1
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: False
+Author: Nadeem Douba
+ShortDescription: Automatically renders Repeater responses in Firefox.
+EntryPoint: realRender.py

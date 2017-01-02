@@ -1,0 +1,8 @@
+<p>This extension renders responses returned in the Repeater tool in a real browser (specifically Firefox).
+</p>
+<p>The extension uses Selenium, a popular browser automation framework, to control the web browser when the Repeater tool is used in Burp Suite.
+Think of this extension as the automatic 'Show Response In Browser' (SRIB) tool.
+Instead of using the SRIB feature repeatedly in Burp Suite, this extension automates the process and makes pen-testing web apps that use mostly JavaScript rendered web pages much easier.</p>
+<p><b>Known Issue:</b> If a JavaScript alert box appears and the operator manually accepts the alert, Selenium will cease operation and the extension will deadlock.
+The only work around for this issue is to manually close the browser and restart the 
+extension.</p>
